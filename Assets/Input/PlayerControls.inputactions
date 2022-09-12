@@ -1,0 +1,65 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Keyboard",
+            "id": "e74dd20b-8650-4e67-baf9-daa75782253c",
+            "actions": [
+                {
+                    "name": "Action",
+                    "type": "Button",
+                    "id": "cb5415f8-61b0-41ab-9c14-a73d416f818e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "1ad512f9-8971-41c3-9054-d680b7af12fe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e728f48b-df0d-4e12-b976-cc5240c872ed",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2fd0027a-866b-4e94-a12c-3cdb5a28291a",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f970b16d-293b-4037-b3e4-69e89e371047",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
